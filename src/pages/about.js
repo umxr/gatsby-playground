@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 const About = () => (
-  <Header>
+  <Layout>
     <h1>About Me</h1>
     <p>This is a p tag</p>
     <Link to="/">Home</Link>
-  </Header>
+  </Layout>
 );
 
 export default About;

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 const Index = () => (
-  <Header>
+  <Layout>
     <h1>Home</h1>
     <Link to="/about">About Me</Link>
-  </Header>
+  </Layout>
 );
 
 export default Index;
